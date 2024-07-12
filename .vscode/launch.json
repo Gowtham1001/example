@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "missingNumber",
+      "request": "launch",
+      "mainClass": "missingNumber",
+      "projectName": "cses_300_5533230c"
+    },
+    {
+      "type": "java",
+      "name": "weirdAlgorithm",
+      "request": "launch",
+      "mainClass": "weirdAlgorithm",
+      "projectName": "cses_300_5533230c"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/cses_300",
+      "program": "e:/cses_300/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
